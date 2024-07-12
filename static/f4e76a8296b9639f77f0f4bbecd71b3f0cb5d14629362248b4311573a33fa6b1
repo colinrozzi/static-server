@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is the Tour de France?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>What is the Tour de France?</h1>
+        
+        <h2>Introduction</h2>
+        <p>The Tour de France is one of the most prestigious and well-known cycling races in the world. Held annually in France, this race attracts the best cyclists from around the globe.</p>
+        
+        <h2>History</h2>
+        <p>The Tour de France was first organized in 1903 to increase newspaper sales for the magazine L'Auto. Since its inception, it has become the most renowned cycling race, taking place every July.</p>
+        
+        <h2>How It Works</h2>
+        <p>The Tour de France is typically divided into 21 day-long segments or stages over a 23-day period. It includes various types of racing, from flat stages to mountain climbs to individual time trials.</p>
+        
+        <h2>Key Components</h2>
+        <h3>Stages</h3>
+        <p>Each stage is unique, with some being flat routes suited for sprinters and others featuring steep, challenging climbs.</p>
+        <h3>Jerseys</h3>
+        <p>There are several important jerseys awarded during the race: the yellow jersey (overall leader), green jersey (points leader), polka dot jersey (best climber), and white jersey (best young rider).</p>
+        <h3>Teams and Riders</h3>
+        <p>Cyclists compete in teams that provide strategic support. The dynamic within teams plays a crucial role in the race's outcome.</p>
+        
+        <h2>Fun Facts</h2>
+        <ul>
+            <li>The Tour de France covers around 3,500 kilometers (2,200 miles).</li>
+            <li>The average cyclist burns about 7,000 calories a day during the race.</li>
+            <li>The race attracts more than 12 million spectators along the route each year.</li>
+        </ul>
+        
+        <h2>Conclusion</h2>
+        <p>The Tour de France is not just a race but a cultural phenomenon, showcasing the endurance, strategy, and skill of the world's best cyclists. It's a must-watch event for sports fans and a significant part of cycling history.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to the Tour de France</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        p, ul {
+            max-width: 600px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .toggle-section {
+            cursor: pointer;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction to the Tour de France</h1>
+    <section>
+        <h2>What is the Tour de France?</h2>
+        <p>The Tour de France is an annual men's multiple stage bicycle race primarily held in France, while also occasionally passing through nearby countries.</p>
+    </section>
+    <section>
+        <h2>History</h2>
+        <p>The race was first organized in 1903 to increase sales for the newspaper L'Auto; it is currently run by the Amaury Sport Organisation.</p>
+    </section>
+    <section>
+        <h2>How It Works</h2>
+        <p>The race lasts for 23 days and it includes 21 day-long segments (stages) over a 3,500 km route. The cyclist with the shortest total time over the course of all the stages wins.</p>
+        <p>There are different types of stages:</p>
+        <ul>
+            <li>Flat stages</li>
+            <li>Mountain stages</li>
+            <li>Time trials</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Significance</h2>
+        <p>The Tour de France is the most well-known and prestigious of cycling's three "Grand Tours", with the Giro d'Italia and the Vuelta a España.</p>
+    </section>
+    <section>
+        <h2>Fun Facts</h2>
+        <ul>
+            <li>It attracts millions of spectators along the route.</li>
+            <li>It's considered one of the hardest sporting events in the world.</li>
+            <li>Winners wear the iconic yellow jersey.</li>
+        </ul>
+    </section>
+    <script>
+        // JavaScript to toggle visibility of sections
+        document.querySelectorAll('h2').forEach(sectionHeader => {
+            sectionHeader.addEventListener('click', () => {
+                const nextElement = sectionHeader.nextElementSibling;
+                if (nextElement.style.display === 'none') {
+                    nextElement.style.display = 'block';
+                } else {
+                    nextElement.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
